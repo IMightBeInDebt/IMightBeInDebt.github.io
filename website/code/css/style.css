@@ -1,0 +1,91 @@
+body {
+  height: 150vh;
+  background-image: url('https://raw.githubusercontent.com/IMightBeInDebt/html-liquid-glass-thing/refs/heads/main/purplecarplay.jpg');
+  background-size: cover;
+  animation: floatBG 15s cubic-in-out infinite;
+  background-color: #333;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1_3 {
+  width: 630px;
+  height: 227px;
+  background: url("../images/v1_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px 10px;
+  margin: 10px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v1_4 {
+  width: 843px;
+  height: 399px;
+  background: rgba(255,255,255,0.10000000149011612);
+  opacity: 0.6;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  overflow: hidden;
+}
+.v1_2 {
+  width: 443px;
+  color: rgba(255,255,255,0.4000000059604645);
+  position: absolute;
+  top: 37px;
+  left: 93px;
+  font-family: SF Pro;
+  font-weight: Semibold;
+  font-size: 128px;
+  opacity: 1;
+  text-align: left;
+  text-decoration: none !important;
+}
+.sen-uniquifier {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 128px;
+  text-decoration: none !important;
+  border-bottom-style: none;
+  color: 172, 172, 172, 0.534;
+  border-color: rgba(172, 172, 172, 0.534);
+  text-decoration-color: rgba(172, 172, 172, 0.534);
+  
+}
+.liquid-glass {
+  backdrop-filter: blur(30px);
+  box-shadow: (0px 8px 13px rgba(0, 0, 0, 0.25));
+  box-shadow: inset 4px 5px 6px 0px rgba(255, 255, 255, 0.40);
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.40);  
+  width: 250px;
+  height: 250px;
+  outline: #333 solid 6px;
+  position: fixed;
+  top: 500px;
+  right: 500px;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+a, a:visited, a:active, a:hover, a:focus,
+a span, .sen-uniquifier, .font {
+  color: rgba(255, 255, 255, 0.85) !important;
+  text-decoration: none !important;
+  text-decoration-color: transparent !important;
+  border-bottom: none !important;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
